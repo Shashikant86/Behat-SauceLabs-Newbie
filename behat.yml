@@ -1,0 +1,13 @@
+default:
+  context:
+    class:  'FeatureContext'
+  extensions:
+    Behat\MinkExtension\Extension:
+     base_url:  'http://www.google.com'
+     javascript_session:  'selenium2'
+     goutte:
+     selenium2:
+        browser: internet explorer
+        wd_host: Shashikant86:a0e37e25-e2f3-4cba-95d3-936007d8bfc3@ondemand.saucelabs.com/wd/hub
+        capabilities: {  "platform": "Windows 2012", "version": "10"}
+
