@@ -8,6 +8,6 @@ default:
      goutte:
      selenium2:
         browser: internet explorer
-        wd_host: Shashikant86:a0e37e25-e2f3-4cba-95d3-936007d8bfc3@ondemand.saucelabs.com/wd/hub
+        wd_host: USERNAME:APIKEY@ondemand.saucelabs.com/wd/hub
         capabilities: {  "platform": "Windows 2012", "version": "10"}
 
